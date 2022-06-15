@@ -1,6 +1,6 @@
 package jaehoon;
 
-class 역순배열 {
+class Reverse {
     public int[] solution(long n) {
         String s = String.valueOf(n); // 문자열으로 변환
         int[] answer = new int[s.length()]; // 문자열만큼 선언

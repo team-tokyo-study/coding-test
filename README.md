@@ -23,4 +23,3 @@ https://tokyostudy.atlassian.net/jira/software/projects/NEW/pages
 - https://qiita.com/devsangwoo
 - https://qiita.com/KyungJoon960
 - https://qiita.com/cunp
-
