@@ -35,7 +35,7 @@ class Solution {
 
 class Solution {
     public long solution(long n) {
-        char[] arr = Long.toString(n).toCharArray();
+        char[] arr = Long.toString(n).toCharArray(); // toCharArray()는 문자열을 배열로 바꿔줌
         Arrays.sort(arr);
         return Long.parseLong(new StringBuilder(new String(arr)).reverse().toString());
     }
