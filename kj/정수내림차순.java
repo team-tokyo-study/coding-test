@@ -1,6 +1,6 @@
 // https://programmers.co.kr/learn/courses/30/lessons/12933
 
-class Solution {
+class naerim {
     public long solution(long n) {
         long answer = 0;
         String nstr = String.valueOf(n); // valueOf(n) = 정수 n을 string으로 바꿔줌
