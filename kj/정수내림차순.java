@@ -1,6 +1,6 @@
 // https://programmers.co.kr/learn/courses/30/lessons/12933
 
-class naerim {
+class Solution {
     public long solution(long n) {
         long answer = 0;
         String nstr = String.valueOf(n); // valueOf(n) = 정수 n을 string으로 바꿔줌
@@ -35,7 +35,7 @@ class naerim {
 
 class Solution {
     public long solution(long n) {
-        char[] arr = Long.toString(n).toCharArray();
+        char[] arr = Long.toString(n).toCharArray(); // toCharArray()는 문자열을 배열로 바꿔줌
         Arrays.sort(arr);
         return Long.parseLong(new StringBuilder(new String(arr)).reverse().toString());
     }
