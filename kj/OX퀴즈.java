@@ -7,6 +7,7 @@ public class OX퀴즈 {
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt(); // 입력할 행의 수(N)를 정수로 입력. 3행이라고 가정
         
+        sc.close();
         String str; // OX 문자열을 담을 스트링 선언
         for(int i = 1; i <= N; i++)  // N이 3이므로 문자열을 3행 반복시켜주는 로직
         {
