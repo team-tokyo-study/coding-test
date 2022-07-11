@@ -1,4 +1,4 @@
-// https://www.acmicpc.net/problem/1181
+// https://www.acmicpc.net/problem/2775
 
 import java.util.Scanner;
 
