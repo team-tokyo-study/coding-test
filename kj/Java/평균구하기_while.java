@@ -1,6 +1,6 @@
 // https://programmers.co.kr/learn/courses/30/lessons/12944
 
-class Solution {
+public class 평균구하기_while {
     public double solution(int[] arr) {
         double answer = 0;
         double sum = 0;
