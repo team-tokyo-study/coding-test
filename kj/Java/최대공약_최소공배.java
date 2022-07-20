@@ -9,7 +9,7 @@
 */
 
 
-class Solution {
+public class 최대공약_최소공배 {
     public int[] solution(int n, int m) {
         int[] answer = new int[2]; // answer값은 배열 두 개를 출력
         int big = Math.max(n, m); // big은 n,m 중 큰 수를 출력

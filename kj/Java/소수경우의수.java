@@ -1,7 +1,7 @@
 // https://programmers.co.kr/learn/courses/30/lessons/12977
 // https://sooooooyn.tistory.com/73
 
-class Solution {
+public class 소수경우의수 {
     public boolean isPrime(int n) {
         for (int i = 2; i*i <= n; i++) {
             if (n % i == 0) return false;
