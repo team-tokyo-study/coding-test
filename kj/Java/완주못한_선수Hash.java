@@ -8,7 +8,7 @@ class Solution_Hash {
     public String solution(String[] participant, String[] completion) { 
         String answer = "";
         HashMap<String, Integer> map = new HashMap<>(); //해시맵<Key값(participant), Value(Count)> → participant를 String, Value를 Integer로 정의 
-        for (String player : participant) // (위에 이어서) participant 배열을 만들고 
+        for (String player : participant)  
             map.put(player, map.getOrDefault(player, 0) + 1); // player의 키 값이 존재하면 키 값을 넣어주고 없으면 기본값으로 설정된 0을 넣어줌. 그 후 키 값에 1씩 더해줌
             // 플레이어에 중복된 값이 없으면 0을 반환, 같은 값이 있으면 그 중복개수만큼을 반환. ex) 마이크, 안나, 마이크(동명이인), 해리가 키일 경우 → 마이크 1(마이크는 하나가 중복되므로), 안나 0, 해리 0 → 후에 +1 
             for (String player : completion) 
